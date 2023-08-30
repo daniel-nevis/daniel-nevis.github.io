@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icon_font_style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://kit.fontawesome.com/cbc1a1dec0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">With your vehicle</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">With company vehicle</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Requirements</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Contacts</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Submit application</a></li>
+                </ul>
+            </div>
+            <div class="burger"> <!-- блок для бургер меню; лежит вне контейнера, т.к. будет абсолютно спозиционирован и не должен ограничиваться контейнером по колонкам -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="subheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4 offset-md-1">
+                        <a href="#" class="subheader_logo"><img src="icons/logo_uber.png" alt="uber_logo"> uber777.kyiv</a>
+                        <div class="xs-hidden subheader_official">Official Uber partner in Kyiv</div>
+                    </div>
+                    <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2"> <!-- xs-hidden — класс, скрівающий эелемент при определенных условиях (размер экрана меньше 768px) -->
+                        <div class="subheader_call">Call us!</div>
+                        <a href="tel:+1 555 555 555" class="subheader_phone">+1 555 555 555</a>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <a href="tel:+1 555 555 555" class="xs-visible subheader_phone">+1 555 555 555</a>
+                        <button class="subheader_btn">callback</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
+                    <h1 class="promo_header">UBER PARTNERS COMPANY</h1>
+                    <h2 class="promo_subheader">DRIVERS ARE WELCOME! WITH YOUR OWN CAR!</h2>
+                    <div class="promo_descr">UBER is dynamic. The company occupies a leading position in the market among taxi providers. The company is absolutely transparent; you can control all processes in your personal account. Bonus system. In addition to the work performed on orders, the company accrues peak time bonuses.<br><br>We are one of the partners and have established ourselves as one of the best teams in the city of Kyiv. Our drivers earn between 40,000 and 80,000 per month.</div>
+                    <button class="promo_btn">SIGN UP!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reasons">
+        <div class="container">
+            <div class="label">advantages</div>
+            <h2 class="title">8 reasons to work with us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_wallet.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">No cash, payment occurs automatically</div>
+                            <div class="reasons_text">
+                                The cost of the trip is paid by the passenger from the linked bank card, i.e. there are no risks associated with the carriage of cash for both the passenger and the driver, you don't need to carry spare change.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_piechart.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">8% commision + BONUSES</div>
+                            <div class="reasons_text">
+                                We have a minimum commission and we pay bonuses for each trip, whereas some of our competitors keep bonuses for themselves. We work honestly and drivers earn more with us!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_money.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">High income with guaranteed payments</div>
+                            <div class="reasons_text">
+                                We pay wages to the driver's personal bank card! You do not need to register an LLC, individual entrepreneurship, pay taxes, file a declaration, pay for accounting services and maintain a bank account.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_calendar.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">Work at a convenient time, no schedules</div>
+                            <div class="reasons_text">
+                                You just press the "Let's roll!" button to start working, when you decide to finish, press "I'm done!". You can do gigs only in the morning, in the evening, on weekends or holidays!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_key.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">Comfortable, transparent and simple registration</div>
+                            <div class="reasons_text">
+                                We work remotely and free of charge, no need to visit the office! You just send us the copies of your documents, we register you and send you data for connection, and in just 1-2 days you can get down to work!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_map.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">Always a high number of orders</div>
+                            <div class="reasons_text">
+                                The application shows where there are currently the most orders and where higher rates apply. You're covered from downtime and idle runs. Our passengers are always pleasant and absolutely non-conflict people who are pleasant to carry.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_phone.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">24/7 Driver Support</div>
+                            <div class="reasons_text">
+                                Uber has 24/7 driver support via email. If something is not clear, you can always ask a question via on-line consultation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <div class="reasons_round">
+                            <img src="icons/icon_car.png" alt="reason">
+                        </div>
+                        <div class="reasons_descr">
+                            <div class="reasons_subtitle">Checkers and stickers free</div>
+                            <div class="reasons_text">
+                                No need to change color, install "checkers" on the car and place any stickers on it.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile">
+        <div class="container">
+            <div class="label">possibilities</div>
+            <h2 class="title">uber mobile app</h2>
+            <div class="subtitle">Place an order, make a trip and pay for it using your mobile phone</div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_1">
+                        <div class="mobile_item_subtitle">one touch checkout</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_2">
+                        <div class="mobile_item_subtitle">reliable availability</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_3">
+                        <div class="mobile_item_subtitle">transparent prices</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_4">
+                        <div class="mobile_item_subtitle">cash-free payments</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_5">
+                        <div class="mobile_item_subtitle">24/7 feedback</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="mobile_item mobile_item_6">
+                        <div class="mobile_item_subtitle">share ride cost</div>
+                        <div class="mobile_item_plus"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="choice">
+        <div class="container">
+            <div class="black"></div>
+            <div class="label label_white">possibilities</div>
+            <h2 class="title title_white hidden-320">choice is a great thing!</h2>
+            <div class="subtitle subtitle_white hidden-320">Pick a car that matches your style & budget</div>
+            <img src="img/uber_car.png" alt="uber car" class="choice_img">
+            <div class="choice_descr">
+                Cars for your everyday rides.<br>
+                Better, faster & cheaper than taxi
+            </div>
+        </div>
+    </section>
+
+    <section class="tac" id="require">
+        <div class="container">
+            <div class="label">possibilities</div>
+            <h2 class="title">terms & conditions</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="tac_block">
+                        <div class="tac_title">CONDITIONS, with your auto:</div>
+                        <ul class="tac_list">
+                            <li>We connect to UBER for 10%</li>
+                            <li>No upfront payments!</li>
+                            <li>Connecting remotely, no need to visit the office</li>
+                            <li>IE not required</li>
+                            <li>Orders are evenly distirbuted between nearest drivers, regardless of one's rating</li>
+                            <li>Cash-free only</li>
+                            <li>Money transferred to card or given in cash at our office</li>
+                        </ul>
+                        <div class="tac_descr">Daily profit ranges from $150 to $250 with a $50 bonus!</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tac_block">
+                        <div class="tac_title">CONDITIONS, with company auto:</div>
+                        <ul class="tac_list">
+                            <li>We provide a car with no deposit required</li>
+                            <li>No daily rent payments</li>
+                            <li>Wednesday, Friday and Saturday you work for the company. The remaining days are completely yours to work on</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tac_block tac_block_nmb condition"> <!-- чтобы у двух нижних блоков не было лишних margin-bottom, так как не соответствует диазйну, см. файл sass -->
+                        <div class="tac_title">REQUIREMENTS:</div>
+                        <ul class="tac_list">
+                            <li>Own a car with no exterior ads</li>
+                            <li>The car should not be yellow, as well as no yellow<br>number plates</li>
+                            <li>The car should not be older than 3 years off the manufacturing date</li>
+                            <li>Your driving experience should be no less than 3 years</li>
+                            <li>Orders are evenly distirbuted between nearest drivers, regardless of one's rating</li>
+                            <li>A smartphone with Android OS no less than v.4.0 (or higher)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tac_block tac_block_nmb condition"> <!-- чтобы у двух нижних блоков не было лишних margin-bottom, так как не соответствует диазйну, см. файл sass-->
+                        <div class="tac_title">DOCUMENTS required:</div>
+                        <ul class="tac_list">
+                            <li>Valid driving license, 2-sides photocopy</li>
+                            <li>National ID photocopy</li>
+                            <li>ITN</li>
+                            <li>Taxi license (if any)</li>
+                            <li>Valid phone number (mobile)</li>
+                            <li>Credit card number for future payments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="world">
+        <div class="container">
+            <div class="label label_white label_min">cities</div>
+            <h2 class="title title_white">throught the world</h2>
+            <div class="subtitle subtitle_white">We're in your city and throughout the world</div>
+            <a href="#" class="world_link">see all cities</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_divider"></div>
+        <div class="footer_wrapper">
+            <!-- Если не оборачивать каждый блок в обертку - получится криво -->
+            <div>
+                <div class="footer_social">
+                    <a href="#" class="footer_social_item">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer_links">
+                    <div class="footer_links_main">
+                        <a href="#">back to main</a>
+                        <a href="#">cities</a>
+                        <a href="#">for drivers</a>
+                    </div>
+                    <div class="footer_links_sub">
+                        <a href="#">support center</a>
+                        <a href="#">vacancies</a>
+                        <a href="#">developers</a>
+                        <a href="#">blog</a>
+                        <a href="#">about us</a>
+                    </div>
+                    <a href="#" class="footer_links_lang">Ukrainian</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer_mobile">
+                    <a href="#">
+                        <i class="fa-brands fa-google-play"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-app-store"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script> <!-- скрипт анимации (изменения состояния) бургера -->
+</body>
+</html>
